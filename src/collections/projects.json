@@ -1,9 +1,9 @@
 [
 	{
-		"name": "Email.ML",
-		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/email.ml.png",
-		"url": "https://email.ml"
+		"name": "Malloc",
+		"description": "Malloc is a C function that allocates dynamic memory",
+		"image": "/assets/images/projects/logo_c.png",
+		"url": "https://github.com/Titouan-Loeb/Malloc"
 	},
 	{
 		"name": "DNS.Surf",
