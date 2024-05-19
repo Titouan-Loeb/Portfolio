@@ -4,17 +4,5 @@
 		"description": "Malloc is a C function that allocates dynamic memory",
 		"image": "/assets/images/projects/logo_c.png",
 		"url": "https://github.com/Titouan-Loeb/Malloc"
-	},
-	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
-	},
-	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
 	}
 ]
