@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "Sokoban duel",
-		"description": "This is a sokoban video game but better! because can play 1v1",
+		"description": "This is a sokoban video game but better! You can play 1v1",
 		"image": "/assets/images/projects/sokoban.png",
 		"url": "https://github.com/Titouan-Loeb/Sokoban_duel"
 	},
