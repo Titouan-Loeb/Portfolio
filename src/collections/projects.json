@@ -4,5 +4,11 @@
 		"description": "Malloc is a C function that allocates dynamic memory",
 		"image": "/assets/images/projects/logo_c.png",
 		"url": "https://github.com/Titouan-Loeb/Malloc"
+	},
+	{
+		"name": "HAL",
+		"description": "HAL is a Lisp interpretor made with Haskell",
+		"image": "/assets/images/projects/haskell.png",
+		"url": "https://github.com/Titouan-Loeb/Lisp_interpretor"
 	}
 ]
