@@ -12,6 +12,12 @@
 		"url": "https://github.com/Titouan-Loeb/Arcade"
 	},
 	{
+		"name": "Sokoban duel",
+		"description": "This is a sokoban video game but better! You can play 1v1",
+		"image": "/assets/images/projects/sokoban.png",
+		"url": "https://github.com/Titouan-Loeb/Sokoban_duel"
+	},
+	{
 		"name": "Malloc",
 		"description": "Malloc is a C function that allocates dynamic memory",
 		"image": "/assets/images/projects/logo_c.png",
@@ -22,11 +28,5 @@
 		"description": "HAL is a Lisp interpretor made with Haskell",
 		"image": "/assets/images/projects/haskell.png",
 		"url": "https://github.com/Titouan-Loeb/Lisp_interpretor"
-	},
-	{
-		"name": "Sokoban duel",
-		"description": "This is a sokoban video game but better! You can play 1v1",
-		"image": "/assets/images/projects/sokoban.png",
-		"url": "https://github.com/Titouan-Loeb/Sokoban_duel"
 	}
 ]
