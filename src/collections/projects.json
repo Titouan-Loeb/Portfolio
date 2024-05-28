@@ -1,20 +1,32 @@
 [
 	{
+		"name": "Sleeq",
+		"description": "An intelligent cross platform e-wallet",
+		"image": "/assets/images/projects/sleeq_plus.png",
+		"url": "https://github.com/Titouan-Loeb/Sleeq"
+	},
+	{
+		"name": "Arcade",
+		"description": "A C++ arcade game reproduction using 3 graphical libraries",
+		"image": "/assets/images/projects/arcade_logo.png",
+		"url": "https://github.com/Titouan-Loeb/Arcade"
+	},
+	{
 		"name": "Malloc",
 		"description": "Malloc is a C function that allocates dynamic memory",
 		"image": "/assets/images/projects/logo_c.png",
 		"url": "https://github.com/Titouan-Loeb/Malloc"
 	},
 	{
-		"name": "Sokoban duel",
-		"description": "This is a sokoban video game but better! You can play 1v1",
-		"image": "/assets/images/projects/sokoban.png",
-		"url": "https://github.com/Titouan-Loeb/Sokoban_duel"
-	},
-	{
 		"name": "HAL",
 		"description": "HAL is a Lisp interpretor made with Haskell",
 		"image": "/assets/images/projects/haskell.png",
 		"url": "https://github.com/Titouan-Loeb/Lisp_interpretor"
+	},
+	{
+		"name": "Sokoban duel",
+		"description": "This is a sokoban video game but better! You can play 1v1",
+		"image": "/assets/images/projects/sokoban.png",
+		"url": "https://github.com/Titouan-Loeb/Sokoban_duel"
 	}
 ]
