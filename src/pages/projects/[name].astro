@@ -1,0 +1,59 @@
+---
+import projects from "../../collections/projects.json";
+import Layout from "../../layouts/main.astro";
+import PageHeading from "../../components/page-heading.astro";
+
+// export async function getStaticPaths() {
+//   const paths = projects.map(project => ({
+//     params: { name: project.name }
+//   }));
+//   return { paths, fallback: false };
+// }
+export async function getStaticPaths() {
+  const paths = projects.map(project => ({
+    params: { name: project.projectId }
+  }));
+  return paths;
+}
+// export async function getStaticProps({ params }) {
+//   const project = projects.find(project => project.name === params.name);
+//   return { props: { project } };
+// }
+
+  const { name } = Astro.params;
+const project = projects.find(project => project.projectId === name);
+
+if (!project) {
+  return Astro.redirect('/404');
+}
+---
+<Layout title={project.name}>
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+      <div class="relative w-fit h-auto my-10">
+        <img src={project.image} class="w-fit rounded-lg object-contain max-h-[100px]" />
+      </div>
+      <div>
+        {
+          project.sections.map((section) => {
+            return (
+            <div class="relative z-20 w-full mx-auto lg:mx-0">
+              <a href={project.url} target="_blank" class="flex items-center space-x-2 text-neutral-900 dark:hover:text-white">
+                <h2 class="text-2xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-3xl lg:text-4xl">
+                  {section.title}
+                </h2>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>
+              </a>
+
+              <p
+                class="mt-3 text-sm leading-6 text-neutral-600 dark:text-neutral-400 sm:mt-4 lg:mt-6 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+              >
+                {section.content}
+              </p>
+            </div>
+            )
+          })
+        }
+      </div>
+  </section>
+</div>
+</Layout>
