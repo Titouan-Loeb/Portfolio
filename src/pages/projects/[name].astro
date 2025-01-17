@@ -1,7 +1,7 @@
 ---
 import projects from "../../collections/projects.json";
 import Layout from "../../layouts/main.astro";
-import PageHeading from "../../components/page-heading.astro";
+import Button from "../../components/button.astro";
 
 // export async function getStaticPaths() {
 //   const paths = projects.map(project => ({
@@ -15,12 +15,8 @@ export async function getStaticPaths() {
   }));
   return paths;
 }
-// export async function getStaticProps({ params }) {
-//   const project = projects.find(project => project.name === params.name);
-//   return { props: { project } };
-// }
 
-  const { name } = Astro.params;
+const { name } = Astro.params;
 const project = projects.find(project => project.projectId === name);
 
 if (!project) {
@@ -54,6 +50,10 @@ if (!project) {
           })
         }
       </div>
+      <Button
+        link={project.url}
+        text="Check git repository"
+      />
   </section>
 </div>
 </Layout>
