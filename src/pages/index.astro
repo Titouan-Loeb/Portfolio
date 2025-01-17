@@ -2,6 +2,7 @@
 import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
 import Layout from "../layouts/main.astro";
+import Button from "../components/button.astro";
 ---
 
 <Layout title="Titouan">
@@ -20,13 +21,13 @@ import Layout from "../layouts/main.astro";
             class="hidden lg:block"
           />I built my expertise around C++ but I also enjoy developing in other lauguages and learning new technos. <br class="hidden lg:block" />
         </p>
-        <a
-          href="https://www.linkedin.com/in/titouan-loeb/"
-          class="inline-flex w-auto px-4 py-2 mt-5 text-xs font-semibold duration-300 ease-out border rounded-full bg-neutral-900 dark:bg-white dark:text-neutral-900 text-neutral-100 hover:border-neutral-700 border-neutral-900 dark:hover:border-neutral-300 hover:bg-white dark:hover:bg-black dark:hover:text-white hover:text-neutral-900"
-        >
-          Add me on Linkedin
-
-        </a>
+        <Button
+          link="https://www.linkedin.com/in/titouan-loeb/"
+          text="Add me on Linkedin"/>
+        <Button
+          link="/assets/images/CV_Titouan_Loeb.pdf"
+          text="Checkout my CV"
+        />
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
