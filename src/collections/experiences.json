@@ -1,16 +1,31 @@
 [
 	{
-		"dates": "MARS 2022 · PRESENT",
+		"dates": "MAR 2022 · DEC 2022 + SEP 2023 · PRESENT",
 		"role": "Software engineer",
-		"company": "Powder AI - team of 6 members",
-		"description": "Responsible for the development of the PC app made with C++ and Electron.",
+		"company": "Powder AI - team of 6 members - English speaking company",
+		"description": [
+			"- Responsible for the development of the PC app made with C++ and Electron.",
+			"- Created GPU accelerated video decoders",
+			"- Created an algorithm generating automatic montages with visual effects base on the video AI analysis",
+			"- Created the video generator for the automatic montages handling slow/fast motions, visuals effects and transitions using shaders",
+			"- Created an algorithms to detect highlights in videos based on the audio loudness, on the chat activity (on Twitch) and community clips",
+			"- Maintained the quality of the codebase with unit tests, code reviews, bug fixes and refactoring",
+			"- Responsible for the release process of the application on the website and on Steam"
+		],
+		"stack": "C++, Gighub, DirectX11, HLSL, FFMPEG, GPU accelation",
 		"logo": "/assets/images/experiences/powder.ico"
 	},
 	{
 		"dates": "SEPTEMBRE 2020 - DECEMBRE 2020",
 		"role": "Software engineer",
-		"company": "Pixi Soft - autonomy",
-		"description": "Responsible for the creation of a software that converts client files to the format of the company.",
+		"company": "Pixi Soft - autonomy - French speaking company",
+		"description": [
+			"- Responsible for creation the Pixi Babel project: software that converts client files to the format of the company.",
+			"- Designed and implemented the sofware interface in Windev and Webdev",
+			"- Created procedures to convert text, csv and xml file to the format of the company",
+			"- Created and managed the database of the software"
+		],
+		"stack": "Windev, Webdev, SQL server",
 		"logo": "/assets/images/experiences/logo-pixisoft.ico"
 	}
 ]
