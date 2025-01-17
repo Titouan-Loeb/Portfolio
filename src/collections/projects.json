@@ -11,7 +11,8 @@
 				"title": "Sleeq",
 				"content": "Sleeq is the final project of 8 Epitech students, it is a cross-platform intelligent e-wallet. Gather all your documents and carry them everywhere you go. Sleeq utilize the OCR (Optical Character Recognition) technology to identify the type of your documents, categorize them, and present them to you in an intelligent way. Thanks to Sleeq it is surprisingly easy to find all you documents anytime, anywhere. Just search for a word that is in you document/picture with Sleeq's searching engine and you will find it right away. Access to Sleeq throught our website, or download our browser extension"
 			}
-		]
+		],
+		"stack": "Flutter, FlutterFlow, Firebase, Firestore, MongoDB, Stripe, Could functions, Git"
 	},
 	{
 		"name": "Arcade",
@@ -25,7 +26,8 @@
 				"title": "Arcade",
 				"content": "Arcade is C++ reproduction of an arcade game. The are two game available: Pacman and Nibler. The game is made with 3 graphical libraries: SFML, SDL2, and Ncurses. The goal of this project was to learn how to use different graphical libraries and how to switch between at run time. The arcade is also able to load games at run time using dynamic libraries that fit the acrchitecture of the aracade."
 			}
-		]
+		],
+		"stack": "C++, Makefile, SFML, SDL2, Ncurses, Git"
 	},
 	{
 		"name": "Sokoban duel",
@@ -39,7 +41,8 @@
 				"title": "Sokoban duel",
 				"content": "Sokoban is a game where you need to push crates on specific locations, this verison of the game is graphical and it includes a 1v1 game mode where you need to finish before you oponent. During my 1st year of college, I had to make a sokoban game in C in the terminal using the ncurses library. During summer holidays I decided to make it graphical and add a 1v1 mode."
 			}
-		]
+		],
+		"stack": "C++, Makefile, SFML, Ncurses, Git"
 	},
 	{
 		"name": "Malloc",
@@ -53,7 +56,8 @@
 				"title": "Malloc",
 				"content": "Malloc is the first project I did for my 2nd year at Epitech. Malloc a C function that allocates dynamic memory, if you ever programmed in C probably already encountered it. For the sake of a school project, I had to reproduce it. At the beginning It was definitely a bit challenging to understand the inner working of the memory allocation, but once I did, it became clear and a pleasure to work on it."
 			}
-		]
+		],
+		"stack": "C, Makefile, Git"
 	},
 	{
 		"name": "HAL",
@@ -67,6 +71,7 @@
 				"title": "HAL",
 				"content": "Hal is a school project made in 3rd year at Epitech. The goal of this project is to make a Lisp interpretor in Haskell. Lisp is a functionnal programming language, it has several iterations but to see what this program can interpret go check the ToolKit.txt that describe every function and functionality that is handle by this interpretor."
 			}
-		]
+		],
+		"stack": "Haskell, Git"
 	}
 ]
