@@ -24,7 +24,7 @@
 		"sections": [
 			{
 				"title": "X86 Interpreter",
-				"content": "X86 Interpreter is a project made in 4rd year at Epitech, when I was abrod studying in Japan at Shibaura Institute of Technology (SIT). The goal of this project is to make an interpreter for the X86 assembly language. The interpreter is able to execute the instructions of the X86 assembly language. The project is made in C++ and the interpreter is able to execute the instructions of the X86 assembly language."
+				"content": "X86 Interpreter is a project made in 4rd year at Epitech, when I was abroad studying in Japan at Shibaura Institute of Technology (SIT). The goal of this project is to make an interpreter for the X86 assembly language. The interpreter is able to execute the instructions of the X86 assembly language. The project is made in C++ and the interpreter is able to execute the instructions of the X86 assembly language."
 			}
 		],
 		"stack": "C++, Makefile"
