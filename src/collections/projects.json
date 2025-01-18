@@ -15,6 +15,21 @@
 		"stack": "Flutter, FlutterFlow, Firebase, Firestore, MongoDB, Stripe, Could functions, Git"
 	},
 	{
+		"name": "X86 Interpreter",
+		"projectId": "X86-Interpreter",
+		"shortDescription": "An X86 interpreter made with in c++",
+		"image": "/assets/images/projects/x86_interpreter.png",
+		"url": "https://github.com/Titouan-Loeb/X86-Interpreter",
+		"page": "/projects/X86-Interpreter",
+		"sections": [
+			{
+				"title": "X86 Interpreter",
+				"content": "X86 Interpreter is a project made in 4rd year at Epitech, when I was abrod studying in Japan at Shibaura Institute of Technology (SIT). The goal of this project is to make an interpreter for the X86 assembly language. The interpreter is able to execute the instructions of the X86 assembly language. The project is made in C++ and the interpreter is able to execute the instructions of the X86 assembly language."
+			}
+		],
+		"stack": "C++, Makefile"
+	},
+	{
 		"name": "Sorting competition",
 		"projectId": "Sorting_competition",
 		"shortDescription": "A race between sorting algorithms in C++",
