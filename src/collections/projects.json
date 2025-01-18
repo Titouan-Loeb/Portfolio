@@ -15,6 +15,21 @@
 		"stack": "Flutter, FlutterFlow, Firebase, Firestore, MongoDB, Stripe, Could functions, Git"
 	},
 	{
+		"name": "Sorting competition",
+		"projectId": "Sorting_competition",
+		"shortDescription": "A race between sorting algorithms in C++",
+		"image": "/assets/images/projects/sorting_competition.png",
+		"url": "https://github.com/Titouan-Loeb/SortingCompetition",
+		"page": "/projects/Sorting_competition",
+		"sections": [
+			{
+				"title": "Sorting competition",
+				"content": "1 list, 10+ algorithms, 1 winner!\nSorting competition is a small C++ project featuring several algorithms for sorting numerical lists. All the algorithms are launched simultaneously and given the task of sorting the same list. They are timed and a ranking is displayed in real time. It is possible to choose which algorithm is in the competition and to define a maximum time in which the algorithm must finish sorting the list. If it exceeds this time, it is discalified.Translated with DeepL.com (free version)"
+			}
+		],
+		"stack": "C++, Makefile, SFML, SDL2, Ncurses, Git"
+	},
+	{
 		"name": "Arcade",
 		"projectId": "Arcade",
 		"shortDescription": "A C++ arcade game reproduction using 3 graphical libraries",
