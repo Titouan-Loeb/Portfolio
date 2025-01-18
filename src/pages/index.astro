@@ -21,13 +21,15 @@ import Button from "../components/button.astro";
             class="hidden lg:block"
           />I built my expertise around C++ but I also enjoy developing in other lauguages and learning new technos. <br class="hidden lg:block" />
         </p>
-        <Button
-          link="https://www.linkedin.com/in/titouan-loeb/"
-          text="Add me on Linkedin"/>
-        <Button
-          link="/assets/images/CV_Titouan_Loeb.pdf"
-          text="Checkout my CV"
-        />
+        <div class="flex gap-3">
+          <Button
+            link="https://www.linkedin.com/in/titouan-loeb/"
+            text="Add me on Linkedin"/>
+          <Button
+            link="/assets/images/CV_Titouan_Loeb.pdf"
+            text="Checkout my CV"
+          />
+        </div>
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -47,7 +49,7 @@ import Button from "../components/button.astro";
           </div>
           <div class="relative z-30 absolute bottom-40">
             <img
-              src="/assets/images/pp2.png"
+              src="/assets/images/pp2.webp"
               loading="eager"
               decoding="auto"
               class="relative z-30 w-full aspect-[790/1189] md:max-w-md mx-auto -translate-y-0.5"

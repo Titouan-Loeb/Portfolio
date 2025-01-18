@@ -10,7 +10,7 @@ const { logo, dates, role, company, description, stack } = Astro.props;
   </div>
 
   <p
-    class="text-xs uppercase text-neutral-400 dark:text-neutral-500 trackign-widest"
+    class="text-xs uppercase text-neutral-400 dark:text-neutral-500 trackign-widest font-medium"
   >
     {dates}
   </p>
@@ -19,14 +19,14 @@ const { logo, dates, role, company, description, stack } = Astro.props;
   {
     description.map((line: string) => {
       return (
-        <p class="text-sm font-light text-neutral-600 dark:text-neutral-400">
+        <p class="text-sm font-normal text-neutral-600 dark:text-neutral-400">
           {line}
         </p>
       )
     })
   }
-  <p class="mb-1 text-sm font-medium dark:text-neutral-300 pt-2">
-    <span>Stack:</span>
-    <span class="text-sm font-light text-neutral-600 dark:text-neutral-400">{stack}</span>
+  <p class="mb-1 text-sm dark:text-neutral-300 pt-2">
+    <span class="font-semibold">Stack:</span>
+    <span class="text-sm font-normal text-neutral-600 dark:text-neutral-400">{stack}</span>
   </p>
 </div>
