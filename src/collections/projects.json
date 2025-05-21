@@ -42,7 +42,7 @@
 				"content": "1 list, 10+ algorithms, 1 winner!\nSorting competition is a small C++ project featuring several algorithms for sorting numerical lists. All the algorithms are launched simultaneously and given the task of sorting the same list. They are timed and a ranking is displayed in real time. It is possible to choose which algorithm is in the competition and to define a maximum time in which the algorithm must finish sorting the list. If it exceeds this time, it is discalified.Translated with DeepL.com (free version)"
 			}
 		],
-		"stack": "C++, Makefile, SFML, SDL2, Ncurses, Git"
+		"stack": "C++, Makefile, Git"
 	},
 	{
 		"name": "Arcade",
