@@ -1,5 +1,20 @@
 [
 	{
+		"name": "",
+		"projectId": "",
+		"shortDescription": "",
+		"image": "/assets/images/projects/",
+		"url": "https://github.com/Titouan-Loeb/",
+		"page": "/projects/",
+		"sections": [
+			{
+				"title": "",
+				"content": ""
+			}
+		],
+		"stack": ""
+	},
+	{
 		"name": "Sleeq",
 		"projectId": "Sleeq",
 		"shortDescription": "An intelligent cross platform e-wallet",
